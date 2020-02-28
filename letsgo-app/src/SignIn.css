@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.backgroundImg {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    27deg,
+    darkolivegreen 50%,
+    rgb(113, 151, 46) 50%
+  );
+}
+
+.centerDiv {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: red;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(
+    27deg,
+    rgb(67, 87, 33) 50%,
+    rgb(96, 129, 39) 50%
+  );
+  box-shadow: 0 1px 6px black, 0 1px 4px black;
+}
+
+#profilePic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: calc((350px - 120px) / 2);
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  word-spacing: 10px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  text-shadow: -2px 2px 1px #0a84c6;
+}
+
+.inputbox {
+  width: calc(100% - 40px);
+  height: 30px;
+  display: block;
+  margin: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  letter-spacing: 2px;
+  color: lightgray;
+}
+button {
+  width: calc(100% - 40px);
+  height: 30px;
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: #0a84c6;
+  border: none;
+}
+
+.FORGOTPASSWORD {
+  width: calc(100% - 40px);
+  height: 30px;
+  display: block;
+  margin: auto;
+  color: white;
+  font: size 0.8;
+  text-align: left;
+  box-sizing: border-box;
+}

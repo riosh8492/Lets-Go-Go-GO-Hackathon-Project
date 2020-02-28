@@ -1,0 +1,58 @@
+body {
+  background-image: url(https://www.enr.com/ext/resources/Blogs/Gold-Rush/sac-state-blog.jpg?1550624202);
+}
+.wrap {
+  width: 500px;
+  margin: auto;
+  background: darkolivegreen;
+  margin-top: 50px;
+  padding: 5px;
+}
+form {
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px dotted white;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+  background: orangered;
+  color: white;
+  width: 93%;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 90%;
+}
+input[type="submit"] {
+  width: 95%;
+  background: orangered;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background: rgb(132, 199, 31);
+}
+select {
+  padding: 10px;
+  width: 32%;
+  border-radius: 5px;
+}
+::placeholder {
+  color: rgb(199, 194, 194);
+}
